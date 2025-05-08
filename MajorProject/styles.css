@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("your-background-image.jpg"); /* Replace with your image URL */
+    background-size: cover; /* or contain, auto, etc. */
+    background-repeat: no-repeat; /* or repeat, repeat-x, repeat-y */
+    background-attachment: fixed; /* or scroll */
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ... rest of your CSS ... */
+
+/* Malware Information Section */
+#malware-info {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 20px auto; /* Center the section */
+    border-radius: 10px;
+    max-width: 800px; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 0 10px rgba(245, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+#malware-info h2 {
+    color: #d32f2f; /* Red heading for emphasis */
+    margin-bottom: 10px;
+}
+
+#malware-info ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 20px;
+}
+
+#malware-info li {
+    margin-bottom: 5px;
+}
+
+#malware-info p {
+    margin-bottom: 10px;
+    line-height: 1.6; /* Improve readability */
+}
